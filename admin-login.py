@@ -30,10 +30,10 @@ def findAdmin():
 
 def Credit():
 	Space(9); print "#####################################"
-	Space(9); print "#   +++ Admin-login v1 +++          #" \033[1;91m
-	Space(9); print "#     @Mr.scriptkiddie004           #" \033[1;91m
-	Space(9); print "#    Indonesia Black Hat Hackers    #" \033[1;97m
-	Space(9); print "#####################################" \033[1;97m
+	Space(9); print "#   +++ Admin-login v1 +++          #"
+	Space(9); print "#     @Mr.scriptkiddie004           #"
+	Space(9); print "#    Indonesia Black Hat Hackers    #"
+	Space(9); print "#####################################"
 
 Credit()
 findAdmin()
