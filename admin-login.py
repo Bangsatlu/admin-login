@@ -11,7 +11,7 @@ def Space(j):
 
 def findAdmin():
 	f = open("link.txt","r");
-	link = raw_input("Enter Site Name \n(ex : example.com or www.example.com ): ")
+	link = raw_input("masukkan nama website \n(ex : example.com or www.example.com ): ")
 	print "\n\nAvilable links : \n"
 	while True:
 		sub_link = f.readline()
@@ -26,7 +26,7 @@ def findAdmin():
 		except URLError as e:
 			continue
 		else:
-			print "OK => ",req_link
+			print " √ => ",req_link
 
 def Credit():
 	Space(9); print "#####################################"
