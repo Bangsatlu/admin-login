@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 from urllib2 import Request, urlopen, URLError, HTTPError
 
@@ -11,7 +11,7 @@ def Space(j):
 
 def findAdmin():
 	f = open("link.txt","r");
-	link = raw_input("masukkan nama website \n(ex : example.com or www.example.com ): ")
+	link = raw_input("masukkan nama situs \n(ex : example.com or www.example.com ): ")
 	print "\n\nAvilable links : \n"
 	while True:
 		sub_link = f.readline()
@@ -26,7 +26,7 @@ def findAdmin():
 		except URLError as e:
 			continue
 		else:
-			print " √ => ",req_link
+			print " oke => ",req_link
 
 def Credit():
 	Space(9); print "#####################################"
