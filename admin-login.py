@@ -11,7 +11,7 @@ def Space(j):
 
 def findAdmin():
 	f = open("link.txt","r");
-	link = raw_input("masukkan nama situs \n(ex : example.com or www.example.com ): ")
+	link = raw_input("masukkan nama situs \n(contoh : example.com or www.example.com ): ")
 	print "\n\nAvilable links : \n"
 	while True:
 		sub_link = f.readline()
