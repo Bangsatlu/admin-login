@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 
-from urllib2 import Request, urlopen, URLError, HTTPError
+from urllib2 import Request,URLopen,HTTPopen,URLError, HTTPError
 
 def Space(j):
 	i = 0
