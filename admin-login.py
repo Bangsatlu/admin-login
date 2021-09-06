@@ -20,7 +20,8 @@ def findAdmin():
 		req_link = "http://"+link+"/"+sub_link
 		req = Request(req_link)
 		try:
-			response = urlopen(req)
+			response = URLopen(req)
+                        response = HTTPopen(req)
 		except HTTPError as e:
 			continue
 		except URLError as e:
