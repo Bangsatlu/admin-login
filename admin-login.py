@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 
-from urllib2 import Request,URLopen,HTTPopen,URLError, HTTPError
+from urllib2 import Request,urlopen,URLError, HTTPError
 
 def Space(j):
 	i = 0
@@ -20,14 +20,14 @@ def findAdmin():
 		req_link = "http://"+link+"/"+sub_link
 		req = Request(req_link)
 		try:
-			response = URLopen(req)
-                        response = HTTPopen(req)
-		except HTTPError as e:
+
+		response = urlopen(req)
+                except HTTPError as e:
 			continue
 		except URLError as e:
 			continue
 		else:
-			print " oke => ",req_link
+			print " cek => ",req_link
 
 def Credit():
 	Space(9); print "#####################################"
