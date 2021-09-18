@@ -1,6 +1,6 @@
                   admin-login
                 ==================
--Adalah tools untuk mencari halaman admin login pada website yang kamu Hack
+-Adalah tools untuk mencari halaman admin login pada website
 
 
 
